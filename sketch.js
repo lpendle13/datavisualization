@@ -9,8 +9,7 @@ function preload() {
 }
 
 function setup() {
- let canvas = createCanvas(1800,600);
- canvas.parent('data');
+ createCanvas(1800,600);
 }
 
 function draw() {
