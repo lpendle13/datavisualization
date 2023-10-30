@@ -1,9 +1,23 @@
 html, body {
   margin: 0;
   padding: 0;
+  height: 800px;
+  max-width: 2000px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(200,210,170);
 }
 
 canvas {
   margin: auto;
+  padding-left: 10px;
+  padding-right: 10px;
   display: block;
+}
+
+#header, #footer {
+  text-align: center;
+}
+
+p {
+  padding-top: 100px;
 }

@@ -9,11 +9,12 @@ function preload() {
 }
 
 function setup() {
- createCanvas(1800,600);
+ let canvas = createCanvas(1604.2,600);
+ canvas.parent('data');
 }
 
 function draw() {
- background(255);
+ background(200,210,170);
 
 image(bgimg,0,0,1604.3,360.2);
 
@@ -70,8 +71,9 @@ rect(0,0,1604.2,360.2);
         fill(0);
         let fontsize=30;
         textSize(fontsize);
-        text('location: ' + hectare,10,410);
-        text('squirrels in hectare ' + hectare + ': ' + count,10,450);
+        textAlign(CENTER);
+        text('location: ' + hectare,802.1,420);
+        text('squirrels in hectare ' + hectare + ': ' + count,802.1,460);
 
       }
       
