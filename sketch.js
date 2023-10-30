@@ -74,6 +74,7 @@ rect(0,0,1604.2,360.2);
         textAlign(CENTER);
         text('location: ' + hectare,802.1,420);
         text('squirrels in hectare ' + hectare + ': ' + count,802.1,460);
+        text('total number of squirrels in Central Park in October 2018: 3,023', 802.1,500)
 
       }
       
